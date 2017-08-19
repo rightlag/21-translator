@@ -1,0 +1,11 @@
+{
+  "name": "21-translator",
+  "description": "Dynamically translate text between thousands of language pairs",
+  "keywords": [
+    "translate"
+  ],
+  "repository": "https://github.com/rightlag/21-translator",
+  "env": {
+    "FLASK_APP": "translator"
+  }
+}
