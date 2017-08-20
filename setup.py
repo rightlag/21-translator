@@ -6,6 +6,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'flask',
+        'two1',
     ],
     author='Jason Walsh',
     url='https://github.com/rightlag/21-translator'
