@@ -12,7 +12,7 @@ Create a [21 account](https://21.co/signup/).
 
 ## Usage
 
-	$ 21 buy "https://quiet-sands-48899.herokuapp.com/?q=the quick brown fox jumped over the lazy dog&target=es" -o out
+	$ 21 buy "jasonwalsh/21-translator/?q=the quick brown fox jumped over the lazy dog&target=es" -o out
 	$ cat out
 
 > "El zorro marrón rápido saltó sobre el perro perezoso"
@@ -20,8 +20,10 @@ Create a [21 account](https://21.co/signup/).
 :bangbang: **Note:** Unfortunately, the `-o` flag is **required** for this operation. If the flag is not specified, the output of the request contains escaped `UTF-8` text.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/2184329/29495390-4c453cbe-858c-11e7-88cd-8c4a1914f00a.png" width="600">
+  <img src="https://user-images.githubusercontent.com/2184329/29497208-f5f188b0-85b1-11e7-81aa-37d12d9d78b6.png" width="600">
 </p>
+
+## Query Parameters
 
 | Parameter | Description                                                                                                                                                                                                                                                                                       |         Required         |
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------:|
