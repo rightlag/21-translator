@@ -12,7 +12,7 @@ ENCODING = 'utf-8'
 
 
 @application.route('/')
-@payment.required(100)
+@payment.required(3000)
 def index():
     path = '/language/translate/v2'
     query = {'key': os.environ['API_KEY']}
