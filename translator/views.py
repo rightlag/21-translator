@@ -32,4 +32,8 @@ def index():
             mimetype='application/json'
         )
     instance = json.loads(payload)['data']['translations'][0]['translatedText']
-    return flask.jsonify(instance)
+    return flask.Response(
+        response=json.dumps(instance, ensure_ascii=False),
+        status=response.status,
+        mimetype='text/plain'
+    )
