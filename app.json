@@ -6,6 +6,15 @@
   ],
   "repository": "https://github.com/rightlag/21-translator",
   "env": {
-    "FLASK_APP": "translator"
+    "FLASK_APP": "translator",
+    "TWO1_USERNAME": {
+      "description": "21.co username"
+    },
+    "TWO1_WALLET_MNEMONIC": {
+      "description": "21 wallet mnemonic"
+    },
+    "API_KEY": {
+      "description": "Google Translate API key"
+    }
   }
 }
