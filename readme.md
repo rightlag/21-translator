@@ -1,6 +1,7 @@
 > Dynamically translate text between thousands of language pairs
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frightlag%2F21-translator.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Frightlag%2F21-translator?ref=badge_shield)
 
 ## Prerequisites
 
@@ -36,3 +37,6 @@ Create a [21 account](https://21.co/signup/).
 ## License
 
 [Jason Walsh](https://twitter.com/rightlag) &copy; [MIT](LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frightlag%2F21-translator.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Frightlag%2F21-translator?ref=badge_large)
